@@ -12,13 +12,7 @@ Three types of inheritance relationships:
 3. "uses-a" relationship: This indicates that one class uses the functionality of another class without inheriting from it. For example, a "Driver" class may use a "Car" class to drive, but the driver is not a type of car.
 
 
-3 ways to call the base class:
-    1. Code Duplication: Directly calling the base class method using the class name.
 
- Important/ used most of the time  >>>
-   2. Using super(): Calling the base class method using the super() function, which returns a temporary object of the superclass.
-
-    3. Explicit call: Directly calling the base class method using the base class name and passing the derived class instance as an argument.
 
 
 
